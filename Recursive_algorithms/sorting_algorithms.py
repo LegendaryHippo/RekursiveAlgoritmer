@@ -1,6 +1,4 @@
-list_one = [3, 1, 2, 4, 9]
-list_two = [9, 9, 2, 3, 1, 6, 3, 6]
-list_three = [9, 4, 9, 5, 5, 9, 1, 8]
+list_one = [9, 4, 9, 5, 5, 9, 1, 8, 4, 6, 3, 4, 1, 8, 5, 3, 44, 63, 31, 63, 11, 13, 64, 99, 11, 43, 25, 15, 32, 62, 74]
 passes = 0
 
 
@@ -16,5 +14,4 @@ def bubble_sort(list_to_sort):
     if not swapped:
         print(list_to_sort)
         print(passes)
-
-bubble_sort(list_three)
+bubble_sort(list_one)
